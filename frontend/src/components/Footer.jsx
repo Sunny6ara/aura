@@ -1,4 +1,3 @@
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -15,10 +14,10 @@ const Footer = () => {
               Curated luxury jewelry for the modern woman. Discover our handpicked collection of premium accessories designed to elevate your everyday style.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-text-light hover:text-accent transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="text-text-light hover:text-accent transition-colors"><Facebook size={20} /></a>
-              <a href="#" className="text-text-light hover:text-accent transition-colors"><Twitter size={20} /></a>
-              <a href="#" className="text-text-light hover:text-accent transition-colors"><Youtube size={20} /></a>
+              <a href="#" className="text-text-light hover:text-accent transition-colors text-sm font-semibold">IG</a>
+              <a href="#" className="text-text-light hover:text-accent transition-colors text-sm font-semibold">FB</a>
+              <a href="#" className="text-text-light hover:text-accent transition-colors text-sm font-semibold">X</a>
+              <a href="#" className="text-text-light hover:text-accent transition-colors text-sm font-semibold">YT</a>
             </div>
           </div>
 
